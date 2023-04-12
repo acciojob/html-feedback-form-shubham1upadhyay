@@ -1,2 +1,43 @@
-
-/* Your CSS Code here. */
+body{
+	background-color:grey;
+}
+.head{
+	text-align:center;
+	font-family:cursive;
+	background-color:magenta;
+	padding:10px;
+}
+.card{
+	background-color:white;
+	padding:20px;
+}
+label{
+	font-weight:bolder;
+	font-family:monospace;
+	font-size:20px;
+}
+input{
+	font-family:fantasy;
+	font-size:18px;
+	color:brown;
+	font-weight:lighter;
+	width:50%;
+	height:30px;
+}
+button{
+	text-align:center;
+	width:200px;
+	height:40px;
+	font-size:24px;
+	border-radius:20px;
+	margin:30px;
+	margin-left:30%;
+	background-color:white;
+	border:2px green solid;
+}
+button:hover{
+	cursor:pointer;
+	background-color:green;
+	color:white;
+	border:2px red solid;
+}
