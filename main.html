@@ -11,14 +11,16 @@
 	<div class="card">
 		<form method="post">
 		<label for="name">Name :</label>
-		<input type="text" id="name" name="name"  minlength="3" maxlength="50" required/>
+		<input type="text" id="name" name="name" minlength="3" maxlength="50" required/>
 		<br/><br/>
+			
 		<label for="portfolio">Add Your Portfolio Link</label>
 		<input type="url" id="portfolio" name="portfolio" required/>
 		<br/><br/>
+			
 		<label for="favColor">Please Select Your Favourite Color</label>	
-		<select id="favColor">
-			<option valuie="red">Red</option>
+		<select id="favColor" type="color">
+			<option value="red">Red</option>
 			<option value="blue">Blue</option>
 			<option value="orange">Orange</option>
 			<option value="green">Green</option>
@@ -26,10 +28,11 @@
 		</select>	
 		<br/><br/>
 
-			<label for=" ">Please rate your likeness to color</label>
-			<input type="range" min="0" max="100" />
-			<br/><br/><br/>
-			<button type="submit">Submit</button>
+		<label for="likeness">Please rate your likeness to color</label>
+		<input type="range" min="1" max="100" />
+		<br/><br/><br/>
+		
+		<button type="submit">Submit</button>
 		</form>
 	</div>
 
